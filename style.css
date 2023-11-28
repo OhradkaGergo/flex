@@ -23,6 +23,11 @@ body {
 footer {
     border: solid black 5px;
     height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 header {
@@ -30,7 +35,18 @@ header {
     height: 150px;
 }
 
-img {
+.flex {
     height: 250px;
-    margin: 150px;
+    margin: 50px;
+}
+
+.gombok {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 50px;
 }
