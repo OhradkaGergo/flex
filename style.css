@@ -8,6 +8,7 @@ body {
 .content {
     height: 500px;
     border: solid black 5px;  
+    
 }
 
 .navbar {
@@ -49,4 +50,16 @@ header {
 
 .logo {
     height: 50px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 101px;
+}
+
+.cardimage {
+    height: 120px;
 }
