@@ -64,20 +64,33 @@ header {
     height: 120px;
 }
 
-@media screen and (max-width: 800px) {
-    .content {
-        display: flex;
-        flex-wrap: wrap;
-        width: 25%;
-        justify-content: space-around;
-        flex-direction: column;
+@media screen and (max-width: 700px){
+    .navbar{
+        width: 98.5%;
     }
-    header {
+    .container{
+        width: fit-content;
+        height: 500px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    header{
         display: flex;
-        flex-wrap: wrap;
-        width: 25%;
-        justify-content: space-around;
         flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: start;
+        height: 250px;
     }
-    
+    .card{
+        margin: 10px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: start;
+        height: 250px;
+    }
 }
