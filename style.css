@@ -63,3 +63,21 @@ header {
 .cardimage {
     height: 120px;
 }
+
+@media screen and (max-width: 800px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 25%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 25%;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+}
